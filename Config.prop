@@ -1,0 +1,39 @@
+
+#Test Suite
+
+TestSuiteName = TEST_SUITE_ND
+
+
+
+#Screenshot Details
+PassedSteps=true
+FailedSteps=true
+AllSteps=False
+
+
+#Execution details..To run PDT enter PDT, to run all put ALL below...
+Execution = ALL
+
+
+Firefox_ScreenOffset=15
+Chrome_ScreenOffset=10
+Safari_ScreenOffset=15
+InternetExplorer_ScreenOffset=20
+
+
+
+WaitTimeInSeconds=250
+
+CloseBrowserAfterExecution=Yes
+
+
+// Do not touch this
+RemoteTesting=No
+LocalTesting=No
+
+
+
+#Paths
+IEPath = Resources\\Windows\\BrowserExes\\IE\\64\\IEDriverServer.exe
+FFPath = Resources\\Windows\\BrowserExes\\Firefox\\32\\geckodriver.exe
+ChromePath = Resources\\Windows\\BrowserExes\\Chrome\\2.29\\chromedriver.exe

@@ -1,0 +1,46 @@
+#Static Data
+
+
+URL= ModelA
+
+
+
+
+//Live link: https://www.btwholesale.com
+//Modela: https://modela.e2e.btwosdev.bt.co.uk
+//Modelc: https://modelc.e2e.btwosdev.bt.co.uk
+//Sanity: https://d1.btwholesale.com
+
+
+
+//Labels in QuickView Popup
+
+labels_QVPopup = Order reference,Customer reference,Service reference,Product name,Overall status,Order date,Account number,Account name,Ordered by,Completion date,Order type
+
+labels_EscalationsPopup = Escalation reference,BT reference,Service reference,Broadband telephone number,Escalation status,Reason for escalation,Time and date of occurrence,Summary
+
+labels_InventoryQVPopup = Service type,Customer reference,Service reference,Asset ID,Last update,Last updated by
+
+labels_PNCNPopup_QVPOopup = Change reference,Summary,Planned start,Planned finish,Downtime reason,Status,Location,Products affected
+
+labels_FaultQVPopup = Fault reference,Customer reference,Overall status,Service reference,Product name,Created date,Account number,Account name,Created by,Closed date
+
+labels_RaiseEscalationsPopup = BT Order reference,Service reference,Broadband telephone number,Reason for escalation,When did the issue occur?,Summary
+
+reasonsForEscalation =Please select,Available appointment slot for order out of SLA,Ceased in error,Confirmed appointment failed for order,Engineering attitude or error on order appointment,Migration failure order,Network availability,Order not closed after provision of service,original commited delivery date missed,Repeated engineering visits,Tags Query Closed But Not Resolved,Unable to place/amend BB order
+
+reasonsForFaultEscalation=Please select,Available appointment slot for fault out of SLA,Circuit slamming,Confirmed appointment failed for fault,Engineering attitude or error on fault appointment,Fault out of SLA timescales,Migration failure fault,Multiple repeat faults,Repeated engineering visits,Unable to report Broadband fault
+
+//Labels in PNCNPage popup
+
+labels_PNCNPopup_PNCNPage = Change reference,Summary,Planned start,Planned finish,Downtime reason,Status,Location,Products affected,Services impacted
+
+
+
+
+
+//Indexes for methods in Live
+
+hosted -4 
+voice index-2
+dats index-4 
